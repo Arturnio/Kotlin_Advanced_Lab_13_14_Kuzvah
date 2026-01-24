@@ -24,7 +24,13 @@ fun main() {
         "Uranus" to 27,
         "Neptune" to 14
     )
-
+    println(solarSystem.size)
+    solarSystem["Pluto"] = 5
+    println(solarSystem.size)
+    println(solarSystem["Pluto"])
+    println(solarSystem.get("Theria"))
+    solarSystem["Jupiter"] = 78
+    println(solarSystem["Jupiter"])
 
 //    solarSystem["Jupiter"]=78
 //    println(solarSystem["Jupiter"])
